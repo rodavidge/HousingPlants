@@ -75,3 +75,15 @@ a {
   color: white;
   font-family: "Trebuchet MS";
 }
+.paragraph {
+  margin:auto;
+  width: 80%;
+  padding: 10px;
+}
+.imgrow {
+  text-align: center;
+  width: 80%
+  margin: auto;
+
+
+}
