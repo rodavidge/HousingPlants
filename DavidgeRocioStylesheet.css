@@ -1,5 +1,6 @@
 body {
   background-color: floralwhite;
+  text-align: center;
 }
 
 h1 {
@@ -25,16 +26,22 @@ p {
 
 ul {
   color: dimgray;
-  text-align: left;
+  text-align: center;
   font-family: "Trebuchet MS";
   font-size: 15px;
 }
-
-#center {
+.firstimage {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+}
+
+.images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 .boldtext {
@@ -71,7 +78,7 @@ a {
 }
 
 .topnav a.active {
-  background-color: darkslategray;
+  background-color: orange;
   color: white;
   font-family: "Trebuchet MS";
 }
@@ -80,10 +87,105 @@ a {
   width: 80%;
   padding: 10px;
 }
+
 .imgrow {
   text-align: center;
-  width: 80%
-  margin: auto;
+  width: 80%;
+}
 
+.img {
+  float:left;
+  width: 25%;
+  height: auto;
+  padding: 10px;
+}
 
+.main-header {
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  margin-right: auto;
+}
+
+.footer {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategray;
+    color: floralwhite;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.left-text {
+  text-align: left;
+}
+table {
+  font-family: "Trebuchet MS";
+  border-collapse: collapse;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+td, th {
+  border: 1px solid darkslategray;
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+  color:darkslategray;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+input[type=submit], input[type=reset]{
+  background-color: darkslategray;
+  color: floralwhite;
+  padding: 15px 15px;
+  border: none;
+  width:30%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid darkslategray;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS";
+  color: dimgray;
+}
+
+input[type=checkbox] {
+
+}
+
+fieldset {
+  border: none;
+  background-color: #e6e6e6;
+  border-collapse: collapse;
+  width: 90%;
+  padding: 20px;
+  font-family: "Trebuchet MS";
+  color: dimgray;
+  display: inline-block;
+  text-align: left;
+}
+
+.buttons {
+  background-color: floralwhite;
+  text-align: center;
+  border: none;
+}
+legend {
+  color: darkslategray;
 }
